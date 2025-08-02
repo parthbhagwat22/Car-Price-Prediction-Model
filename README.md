@@ -1,69 +1,40 @@
-# 🚗 Car Price Prediction using Machine Learning
+# 🚗 Used Car Price Prediction Model
 
-This project aims to predict the **price of used cars** based on various features like make, model, engine specifications, and mileage. It uses a **Linear Regression** model to estimate prices, making it a simple but effective baseline solution.
+A data-driven ML solution to estimate the price of used cars based on real-world features like mileage, engine specs, fuel type, etc. Includes full EDA, preprocessing, and model deployment via Streamlit.
+
+## 🚀 Live Demo  
+👉 [Click to View the App](https://carwise-ai.streamlit.app/)
 
 ## 📁 Project Structure
-
-```
-Car_Price_Prediction_Professional.ipynb  # Jupyter Notebook with full ML pipeline
-final_car_with_performance.csv                   # Dataset used
-requirements.txt                         # Python dependencies
-README.md                                # Project documentation
-```
+Used-Car-Price-Prediction-Model/  
+┣ Car_Price_Prediction_Professional.ipynb  # Complete ML pipeline  
+┣ final_car_with_performance.csv           # Cleaned dataset  
+┣ requirements.txt                         # Project dependencies  
+┗ README.md                                # Documentation
 
 ## 📊 Features Used
+- Name, Model, Variant
+- Ex-Showroom Price (target)
+- Displacement, Cylinders, Power, Torque
+- Fuel Type, Ground Clearance, Mileage
+- Type (e.g., SUV, Sedan)
 
-- Name
-- Model
-- Variant
-- Ex-Showroom Price
-- Displacement
-- Cylinders
-- Fuel Type
-- Ground Clearance
-- Power
-- Torque
-- Type
-- ARAI Certified Mileage
+## 🔧 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Joblib
+- Streamlit
 
-## 📦 Libraries Used
-
-- pandas
-- numpy
-- scikit-learn
-- joblib (for saving model)
-
-## 🔍 Machine Learning Model
-
-- **Model Used**: RandomForestRegressor  
-- **Target Variable**: Ex-Showroom Price  
-- **Evaluation Metric**: R² Score (coefficient of determination)
+## 🤖 Machine Learning Model
+- Model Used: RandomForestRegressor
+- Target Variable: Ex-Showroom Price
+- Evaluation Metric: R² Score
 
 ## ✅ Results
+- The model explains **88% of price variance (R² Score = 0.88)**
+- Provides reliable baseline estimates for used car pricing
 
-- 📈 The model provides a basic estimation of car prices using easily available car features.
-- 📊 Accuracy (R² Score): 0.88 (88%)
+## 💻 How to Run Locally
 
-
-## 📌 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/car-price-prediction.git
-   cd car-price-prediction
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the notebook:
-   ```bash
-   jupyter notebook Car_Price_Prediction_Professional.ipynb
-   ```
-
-## 🧠 Author
-
-**Parth Vinay Bhagwat**  
-[LinkedIn](https://www.linkedin.com/in/parthbhagwat/) | [GitHub](https://github.com/parthbhagwat22)
+1. Clone the repo:
