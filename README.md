@@ -1,4 +1,4 @@
-# 🚗 Used Car Price Prediction Model
+# 🚗Car Price Prediction Model
 
 A data-driven ML solution to estimate the price of used cars based on real-world features like mileage, engine specs, fuel type, etc. Includes full EDA, preprocessing, and model deployment via Streamlit.
 
