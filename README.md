@@ -3,7 +3,7 @@
 A data-driven ML solution to estimate the price of used cars based on real-world features like mileage, engine specs, fuel type, etc. Includes full EDA, preprocessing, and model deployment via Streamlit.
 
 ## 🚀 Live Demo  
-👉 [Click to View the App](https://carwise-ai.streamlit.app/)
+👉 [Click to View the App](https://carbrain-ai.streamlit.app/)
 
 ## 📁 Project Structure
 Used-Car-Price-Prediction-Model/  
