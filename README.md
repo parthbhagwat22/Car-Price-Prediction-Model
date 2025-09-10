@@ -1,6 +1,6 @@
 # 🚗Car Price Prediction Model
 
-A data-driven ML solution to estimate the price of used cars based on real-world features like mileage, engine specs, fuel type, etc. Includes full EDA, preprocessing, and model deployment via Streamlit.
+A data-driven ML solution to estimate the price of cars based on real-world features like mileage, engine specs, fuel type, etc. Includes full EDA, preprocessing, and model deployment via Streamlit.
 
 ## 🚀 Live Demo  
 👉 [Click to View the App](https://carbrain-ai.streamlit.app/)
